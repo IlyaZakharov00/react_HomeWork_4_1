@@ -1,0 +1,44 @@
+html,
+body {
+    font-family: "Work Sans", sans-serif;
+    line-height: 1.4;
+    height: 100%;
+    width: 100%;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+.form-convertor {
+    width: 250px;
+}
+
+.input-color-hex {
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+
+.color-rgb {
+    text-align: center;
+    margin-top: 15px;
+    border: 1px solid black;
+    font-size: 30px;
+    width: 100%;
+}
+
+::placeholder {
+    font-size: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
